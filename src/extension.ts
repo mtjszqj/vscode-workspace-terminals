@@ -47,7 +47,12 @@ const switchTerminal = (editor: TextEditor | undefined) => {
     return;
   }
 
-  getActiveWorkspaceTerminal(editor, window.terminals)?.show(true);
+  // getActiveWorkspaceTerminal(editor, window.terminals)?.show(true);
+  
+  //// - hide terminal once active, just want to browse code, not executing it
+  const terminal = getActiveWorkspaceTerminal(editor, window.terminals);
+  terminal?.show(true);
+  terminal?.hide();
 };
 
 export function activate(context: ExtensionContext) {

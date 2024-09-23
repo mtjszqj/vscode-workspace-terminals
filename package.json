@@ -1,9 +1,9 @@
 {
-	"name": "workspace-terminals",
-	"displayName": "Workspace Terminals",
+	"name": "a-workspace-terminals",
+	"displayName": "A Workspace Terminals",
 	"description": "Manage terminals in multi-root workspaces",
-	"version": "0.3.3",
-	"publisher": "joshx",
+	"version": "0.0.1",
+	"publisher": "mtjszqj",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
